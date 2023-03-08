@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="../static/modeling.css" />
     <!-- hit ctrl+shift+r to reload css (bypass cache)-->
@@ -7,6 +7,18 @@
 
 <body>
 
-    <h1>Recommendations coming soon...</h1>
-    
-    </body>
+<h1>Recommendations for You</h1>
+
+<form action="http://localhost:5000/recs" method="post">
+    <p>Enter your name:</p>
+    <p><input type="text" name="name" /></p>
+    <p><input type="submit" value="submit"/></p>   
+</form>  
+
+<div>
+    <a href=/ ><button class="home_button">Home</button></a>
+</div>
+</body>
+
+
+</html>
