@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Recommendations</title>
+    <!--<link rel="stylesheet" type="text/css" href="../static/final_rec.css" />-->
+    <!-- hit ctrl+shift+r to reload css (bypass cache)-->
+
+    <style>
+
+    body {
+        background: rgb(208, 215, 223);
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+   
+    h1 {
+        background: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-family: Cambria, Geneva, sans-serif;
+        font-size: 4.0em;
+        color: rgb(0, 0, 0);
+    }
+
+    h2 {
+        text-align: center;
+        border-style: solid;
+        border-color: rgb(36, 39, 210);
+    }
+
+    #table_header {
+        font-size: 36px;
+        font-weight: bold;
+        color: black;
+    }
+
+    #genre_p {
+        font-size: 28px;
+        color: black;
+        margin-top: 1px;
+    }
+
+    #output {
+        color: black;
+    }    
+
+    .home_button {
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            height: 50px;
+            width: 120px;
+            color: rgb(140, 190, 231);
+            font-size: 24px;
+            border-radius: 12px;
+            border: 2px black;
+            cursor: pointer;
+        }
+
+    .home_button:hover {
+            color: rgb(36, 39, 210);
+    }
+    </style>
+</head>
+<body>
+    <h1>Recommendations</h1>
+
+    <div class="buttons">
+        <a href=/modeling ><button class="home_button">Home</button></a>
+    </div>
+</body> 
+
+    <h2>
+        <p id="table_header"><u>{{ y }}'s Catered Movie List: </u></p>
+        <br>
+        <p id="genre_p">Genre Parameter: [{{ z }}]</p>
+        <p id="output">{{ x }} </p>
+    </h2>
+
+
+
+
+</html>

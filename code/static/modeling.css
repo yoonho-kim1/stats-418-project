@@ -1,0 +1,74 @@
+body {
+    background: rgb(208, 215, 223);
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+
+h1 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4.0em;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#intro {
+    font-size: 28pt;
+    text-align: center;
+}
+
+#sub-intro {
+    font-size: 20pt;
+    text-align: center;
+}
+
+#text-box1 {
+    text-align: center;
+}
+
+#text-box2 {
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 15%;
+    padding: 15px 20px 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 25%;
+  }
+
+input[type=submit] {
+    width: 10%;
+    cursor: pointer;
+    color: rgb(36,39,210);
+    font-size: 16px;
+    padding: 5px 8px 5px 8px;
+}
+
+.home_button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 50px;
+    width: 120px;
+    margin-top: 15%;
+    color: rgb(140, 190, 231);
+    font-size: 24px;
+    border-radius: 12px;
+    border: 2px black;
+    cursor: pointer;
+}
+.home_button:hover {
+    color: rgb(36, 39, 210);
+  }
+  
