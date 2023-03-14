@@ -13,8 +13,25 @@ h1 {
     margin-right: 0%;
 }
 
-p {
-    font-size: 2em;
+#intro {
+    font-size: 28pt;
+    text-align: center;
+}
+
+#sub-intro {
+    font-size: 20pt;
+    text-align: center;
+}
+
+#text-box1 {
+    text-align: center;
+}
+
+#text-box2 {
+    text-align: center;
+}
+
+#submit {
     text-align: center;
 }
 
@@ -27,7 +44,7 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 input[type=text]:focus {
-    width: 50%;
+    width: 25%;
   }
 
 input[type=submit] {

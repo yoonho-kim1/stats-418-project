@@ -3,16 +3,32 @@
 <head>
     <link rel="stylesheet" type="text/css" href="../static/dashboard.css" />
     <!-- hit ctrl+shift+r to reload css (bypass cache)-->
+
+    <!--<script src="jquery.js"></script>
+    <script>
+        $(function(){
+            $("#includedContent").load("range_slider.html");
+        })
+    </script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bokeh/3.0.1/bokeh.min.js"
+        integrity="sha512-p7EUyPmeDeOwHiu7fIZNboAcQLxei3sWtXoHoShWWiPNUSRng/Xs5JPcaFPRa4dKy9IuHjyIQuLE4caGCwuewA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
 
 <h1>Bokeh Visualizations</h1>
-    
+<!--
+<div id="includedContent"></div>
+-->
+<div class="col-md-6">
+    {{ div | safe }}
+    {{ script |safe }}
+</div>
 
 
-
-<div>
+<div class="buttons">
     <a href=/ ><button class="home_button">Home</button></a>
 </div>
 
